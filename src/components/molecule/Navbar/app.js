@@ -13,10 +13,12 @@ export const NavLeft = styled.div`
 export const NavRight = styled.div`
   width: 50%;
   display: flex;
-  font-size: 12px;
+  font-size: 13px;
   justify-content: flex-end;
   align-item: center;
-  padding-top: 1.6rem;
+  padding-top: 1.9rem;
+  color: #ffffff;
+  font-weight: 400;
   @media screen and (max-width: 1200px) {
     display: none;
   }
@@ -32,7 +34,7 @@ export const NavOne = styled.div`
     color: #d30002;
     cursor: pointer;
   }
-  margin-right: 3rem;
+  margin-right: 2rem;
   height: 1.5rem;
 `;
 
@@ -42,7 +44,7 @@ export const NavTwo = styled.div`
     color: #d30002;
     cursor: pointer;
   }
-  margin-right: 3rem;
+  margin-right: 2rem;
   height: 1.5rem;
 `;
 
@@ -52,7 +54,7 @@ export const NavThree = styled.div`
     color: #d30002;
     cursor: pointer;
   }
-  margin-right: 3rem;
+  margin-right: 2rem;
   height: 1.5rem;
 `;
 
@@ -68,6 +70,8 @@ export const NavFour = styled.div`
 
 export const Photo = styled.img`
   width: 4.5rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
   @media screen and (max-width: 1200px) {
     display: none;
   }
@@ -79,5 +83,7 @@ export const Icon = styled.img`
     width: 1.7rem;
     display: block;
     padding-top: 1rem;
+    cursor: pointer;
+    color: #ffffff;
   }
 `;

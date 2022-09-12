@@ -1,12 +1,15 @@
 import React from "react";
 import { Navbar } from "../../molecule";
+import { Body } from "./app";
 
 export const HomePage = () => {
   return (
     <>
-      <nav>
-        <Navbar />
-      </nav>
+      <Body>
+        <nav>
+          <Navbar />
+        </nav>
+      </Body>
     </>
   );
 };

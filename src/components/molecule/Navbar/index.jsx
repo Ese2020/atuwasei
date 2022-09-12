@@ -1,7 +1,7 @@
 import React from "react";
 import { Text } from "../../atom";
 import logo from "../../../asset/logo.png";
-import icon from "../../../asset/menu.webp";
+import icon from "../../../asset/menu.svg";
 import {
   NavLeft,
   NavRight,

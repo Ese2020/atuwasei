@@ -10,3 +10,17 @@ export const Body = styled.main`
   background-size: cover;
   background-position: center center;
 `;
+
+export const Section = styled.section`
+  text-align: center;
+  font-size: 2.2rem;
+  color: #ffffff;
+  padding-top: 19rem;
+
+  @media screen and (max-width: 998px) {
+    font-size: 1.4rem;
+    padding-top: 22rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+`;

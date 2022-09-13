@@ -29,4 +29,7 @@ export const BottomNav = styled.footer`
   display: flex;
   justify-content: center;
   padding-top: 5rem;
+  @media screen and (max-width: 998px) {
+    padding-top: 5rem;
+  }
 `;

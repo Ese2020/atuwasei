@@ -1,11 +1,11 @@
-.footer {
+.foot {
   display: flex;
   gap: 1rem;
   width: 48rem;
   border: none;
   border-radius: 2rem;
   background-color: #d30002;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1rem;
 }
 
 .home,
@@ -38,4 +38,30 @@
 .up {
   padding-left: 0.5rem;
   font-size: 0.9rem;
+}
+
+@media screen and (max-width: 998px) {
+  .footer {
+    overflow: hidden;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .foot {
+    overflow-x: scroll;
+    max-width: 39rem;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .foot {
+    overflow-x: scroll;
+    max-width: 29rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .foot {
+    overflow-x: scroll;
+    max-width: 25rem;
+  }
 }

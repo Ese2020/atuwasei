@@ -24,3 +24,9 @@ export const Section = styled.section`
     padding-right: 1rem;
   }
 `;
+
+export const BottomNav = styled.footer`
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+`;

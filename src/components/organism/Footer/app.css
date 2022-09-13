@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  gap: 1rem;
+  width: 48rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #d30002;
+  padding: 0.5rem 1rem;
+}
+
+.home,
+.press,
+.event,
+.notice,
+.speech,
+.account {
+  border: 1px solid white;
+  border-radius: 2rem;
+  padding: 0.3rem 1rem;
+}
+
+.linked {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.up {
+  padding-left: 0.5rem;
+  font-size: 0.9rem;
+}

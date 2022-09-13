@@ -1,7 +1,8 @@
 import React from "react";
-import { Text } from "../../atom";
+import { CustomLink } from "../../atom";
 import logo from "../../../asset/logo.png";
 import icon from "../../../asset/menu.svg";
+import "./app.css";
 import {
   NavLeft,
   NavRight,
@@ -27,16 +28,24 @@ export const Navbar = () => {
         </NavLeft>
         <NavRight>
           <NavOne>
-            <Text>History</Text>
+            <CustomLink to="/history" className="link">
+              History
+            </CustomLink>
           </NavOne>
           <NavTwo>
-            <Text>The Ginuwa Ruling House</Text>
+            <CustomLink to="/theginuwa" className="link">
+              The Ginuwa Ruling House
+            </CustomLink>
           </NavTwo>
           <NavThree>
-            <Text>Warri Traditional Council</Text>
+            <CustomLink to="/warritraditionalcouncil" className="link">
+              Warri Traditional Council
+            </CustomLink>
           </NavThree>
           <NavFour>
-            <Text>Royal Court Notices</Text>
+            <CustomLink to="/royalcourtnotices" className="link">
+              Royal Court Notices
+            </CustomLink>
           </NavFour>
         </NavRight>
       </NavSection>

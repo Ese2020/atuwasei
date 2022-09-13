@@ -1,0 +1,65 @@
+.hist-container {
+    color: #212529;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w {
+    background-color: white;
+    padding: 40px;
+}
+
+.mt-15 {
+    margin-top: -15px;
+}
+
+.mt-70 {
+    margin-top: -70px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.fs {
+    font-size: 1.25rem;
+}
+
+.monarch {
+    margin: 0;
+    padding: 30px;
+    background-color: #f6f6f8;
+}
+
+.monarch-history {
+    border-radius: 10px;
+    margin-top: 32px;
+    height: 75vh;
+    font-size: 0.8rem;
+    white-space: wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(214, 210, 210);
+    border-radius: 10px;
+}
+
+  

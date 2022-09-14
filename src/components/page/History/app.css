@@ -1,9 +1,15 @@
+h1,
+h2 {
+    font-weight: bold;
+}
+
 .hist-container {
-  color: #212529;
-  margin-left: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+    color: #212529;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .w-40 {
@@ -27,6 +33,10 @@
   margin-top: -70px;
 }
 
+.mt-8 {
+    margin-top: 8px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -36,9 +46,11 @@
 }
 
 .monarch {
-  margin: 0;
-  padding: 30px;
-  background-color: #f6f6f8;
+
+    border-top: 32px;
+    padding: 30px;
+    background-color: #f6f6f8;
+
 }
 
 .monarch-history {
@@ -68,66 +80,42 @@
 }
 
 .slideshow {
-  position: relative;
+
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .mainImg {
-  transition: all 500ms;
-  width: 400px;
-  vertical-align: middle;
+    margin-top: 32px;
+    transition: all 500ms;
+    width: 350px;
+    vertical-align: middle;
 }
 
 .actions {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.actions .next {
-  right: 0px;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    gap: 320px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .actions button {
-  width: 20px;
-  height: 20px;
-  background: none;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-.actions .next {
-  margin-right: 0;
-}
-
-.ft {
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  bottom: 10%;
-  width: 100%;
-  /* border: 1px solid black; */
+    width: 50px;
+    height: 30px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .back {
-  display: flex;
-  position: absolute;
-  top: 24px;
-  left: 24px;
-  width: 28px;
-  height: 28px;
-  background-color: transparent;
-  border-radius: 50%;
-  color: rgb(53, 52, 52);
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  border: 1px solid black;
-  cursor: pointer;
-}
+    margin-top: 20px;
+    padding: 4px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position:relative;
 
-.backed {
-  text-decoration: none;
 }

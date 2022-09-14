@@ -40,9 +40,9 @@ export const BottomNav = styled.footer`
   justify-content: center;
   padding-top: 10vh;
   @media screen and (max-width: 998px) {
-    padding-top: 12vh;
+    padding-top: 13vh;
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 400px) {
     padding-top: 7vh;
   }
 `;

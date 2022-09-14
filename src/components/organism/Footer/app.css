@@ -1,0 +1,107 @@
+.foot {
+  display: flex;
+  gap: 1rem;
+  width: 48rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #d30002;
+  padding: 0.8rem 1rem;
+}
+
+.home,
+.press,
+.event,
+.notice,
+.speech,
+.account {
+  border-radius: 2rem;
+  padding: 0.3rem 1rem;
+}
+
+.home:hover,
+.press:hover,
+.event:hover,
+.notice:hover,
+.speech:hover,
+.account:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+.linked {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.up {
+  padding-left: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.v-click {
+  padding: 4px 13px;
+  border-radius: 5px;
+  position: fixed;
+  background-color: rgb(211, 0, 2);
+  color: white;
+  font-size: 0.7rem;
+  cursor: pointer;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.v-down-click {
+  position: fixed;
+  bottom: -8%;
+}
+
+@media screen and (max-width: 998px) {
+  .footer {
+    overflow: hidden;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .foot {
+    overflow-x: scroll;
+    max-width: 39rem;
+  }
+  .v-down-click {
+    position: fixed;
+    bottom: -8.5%;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .foot {
+    overflow-x: scroll;
+    max-width: 29rem;
+  }
+  .v-down-click {
+    position: fixed;
+    bottom: -7%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .foot {
+    overflow-x: scroll;
+    max-width: 25rem;
+  }
+  .v-down-click {
+    position: fixed;
+    bottom: -7.5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .foot {
+    overflow-x: scroll;
+    max-width: 20rem;
+  }
+  .v-down-click {
+    position: fixed;
+    bottom: -7.5%;
+  }
+}

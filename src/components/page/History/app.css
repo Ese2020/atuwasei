@@ -4,31 +4,33 @@ h2 {
 }
 
 .hist-container {
+
     color: #212529;
     margin-left: 30px;
     display: flex;
     justify-content: space-between;
+
 }
 
 .w-40 {
-    width: 40%;
+  width: 40%;
 }
 
 .w-60 {
-    width: 60%;
+  width: 60%;
 }
 
 .w {
-    background-color: white;
-    padding: 40px;
+  background-color: white;
+  padding: 40px;
 }
 
 .mt-15 {
-    margin-top: -15px;
+  margin-top: -15px;
 }
 
 .mt-70 {
-    margin-top: -70px;
+  margin-top: -70px;
 }
 
 .mt-8 {
@@ -36,46 +38,49 @@ h2 {
 }
 
 .mb-10 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .fs {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .monarch {
+
     border-top: 32px;
     padding: 30px;
     background-color: #f6f6f8;
+
 }
 
 .monarch-history {
-    border-radius: 10px;
-    margin-top: 32px;
-    height: 75vh;
-    font-size: 0.8rem;
-    white-space: wrap;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    width: 100%;
-    background-color: white;
+  border-radius: 10px;
+  margin-top: 32px;
+  height: 75vh;
+  font-size: 0.8rem;
+  white-space: wrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: white;
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: rgb(214, 210, 210);
-    border-radius: 10px;
+  background-color: rgb(214, 210, 210);
+  border-radius: 10px;
 }
 
 .mrl {
-    margin-left: 30px;
-    margin-right: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .slideshow {
+
     position: relative;
     margin-left: 50px;
     margin-right: 50px;
@@ -111,6 +116,6 @@ h2 {
     width: 30px;
     border: 1px solid black;
     border-radius: 50px;
-}
+    position:relative;
 
-  
+}

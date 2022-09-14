@@ -42,7 +42,7 @@ export const History = () => {
     <>
       <div className="back">
         <NavLink to="/" className="backed">
-          home
+          ⟵
         </NavLink>
       </div>
       <div className="hist-container">
@@ -247,7 +247,7 @@ export const History = () => {
           </div>
         </div>
       </div>
-      <footer>
+      <footer className="ft">
         <Footer />
       </footer>
     </>

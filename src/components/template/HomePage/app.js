@@ -28,7 +28,7 @@ export const Section = styled.section`
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  @media screen and (max-width: 50px) {
+  @media screen and (max-width: 500px) {
     margin-top: 48vh;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -41,5 +41,8 @@ export const BottomNav = styled.footer`
   padding-top: 10vh;
   @media screen and (max-width: 998px) {
     padding-top: 12vh;
+  }
+  @media screen and (max-width: 500px) {
+    padding-top: 7vh;
   }
 `;

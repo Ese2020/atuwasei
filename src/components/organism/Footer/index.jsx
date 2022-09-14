@@ -12,6 +12,7 @@ export const Footer = () => {
   return (
     <>
       <div className="footer">
+        <span className="v-click">v</span>
         <div className="foot">
           <div className="home">
             <NavLink to="/" className="linked">

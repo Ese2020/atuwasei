@@ -40,6 +40,18 @@
   font-size: 0.9rem;
 }
 
+.v-click {
+  padding: 4px 13px;
+  border-radius: 5px;
+  position: fixed;
+  background-color: rgb(211, 0, 2);
+  color: white;
+  font-size: 0.7rem;
+  cursor: pointer;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media screen and (max-width: 998px) {
   .footer {
     overflow: hidden;

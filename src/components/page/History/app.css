@@ -1,9 +1,13 @@
+h1,
+h2 {
+    font-weight: bold;
+}
+
 .hist-container {
     color: #212529;
     margin-left: 30px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .w-40 {
@@ -27,6 +31,10 @@
     margin-top: -70px;
 }
 
+.mt-8 {
+    margin-top: 8px;
+}
+
 .mb-10 {
     margin-bottom: 10px;
 }
@@ -36,7 +44,7 @@
 }
 
 .monarch {
-    margin: 0;
+    border-top: 32px;
     padding: 30px;
     background-color: #f6f6f8;
 }
@@ -69,36 +77,40 @@
 
 .slideshow {
     position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .mainImg {
+    margin-top: 32px;
     transition: all 500ms;
-    width: 400px;
+    width: 350px;
     vertical-align: middle;
 }
 
 .actions {
     position: absolute;
-    top: 50%;
+    top: 55%;
     width: 100%;
+    gap: 320px;
     display: flex;
     justify-content: space-between;
 }
 
-.actions .next {
-    right: 0px;
-}
-
 .actions button {
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 30px;
     background: none;
     border: 1px solid black;
     border-radius: 5px;
 }
 
-.actions .next {
-    margin-right: 0;
+.back {
+    margin-top: 20px;
+    padding: 4px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
 }
 
   

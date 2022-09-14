@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./app.css";
+import {FaLongArrowAltLeft } from 'react-icons/fa';
+import {FaArrowLeft } from 'react-icons/fa';
+import {FaArrowRight } from 'react-icons/fa';
+
+
 
 export const History = () => {
   const Slideshow = ({ imgs }) => {
@@ -29,10 +34,10 @@ export const History = () => {
   
     return (
     <div className="slideshow w-40">
-      <img className="mainImg mrl" src={imgs[index]}  />
+      <img className="mainImg" src={imgs[index]}  />
       <div className="actions">
-        <button onClick={prev}>a</button>
-        <button onClick={next}>b</button>
+        <button onClick={prev}><FaArrowLeft /></button>
+        <button onClick={next}><FaArrowRight /></button>
       </div>
     </div>
     )
@@ -42,6 +47,9 @@ export const History = () => {
     <>
       <div className="hist-container">
         <div className="w-40">
+        <div className="back"><FaLongArrowAltLeft />
+          
+        </div>
           <Slideshow 
           imgs={[
               "https://atuwatseiii.com/assets/img/crests/iwere_kings/ginuwa_ii.jpg",
@@ -55,7 +63,7 @@ export const History = () => {
         </div>
       
         <div className="monarch w-60">
-          <div>
+          <div className="mt-8">
           <h1>History</h1>
           </div>
           <div className="monarch-history">

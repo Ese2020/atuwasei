@@ -52,6 +52,11 @@
   transform: translate(-50%, -50%);
 }
 
+.v-down-click {
+  position: fixed;
+  bottom: -8%;
+}
+
 @media screen and (max-width: 998px) {
   .footer {
     overflow: hidden;
@@ -63,6 +68,10 @@
     overflow-x: scroll;
     max-width: 39rem;
   }
+  .v-down-click {
+    position: fixed;
+    bottom: -8.5%;
+  }
 }
 
 @media screen and (max-width: 635px) {
@@ -70,11 +79,19 @@
     overflow-x: scroll;
     max-width: 29rem;
   }
+  .v-down-click {
+    position: fixed;
+    bottom: -7%;
+  }
 }
 @media screen and (max-width: 500px) {
   .foot {
     overflow-x: scroll;
     max-width: 25rem;
+  }
+  .v-down-click {
+    position: fixed;
+    bottom: -7.5%;
   }
 }
 
@@ -82,5 +99,9 @@
   .foot {
     overflow-x: scroll;
     max-width: 20rem;
+  }
+  .v-down-click {
+    position: fixed;
+    bottom: -7.5%;
   }
 }

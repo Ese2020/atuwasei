@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink, Svg } from "../../atom";
 import "./app.css";
 import home from "../../../asset/home.svg";
@@ -9,10 +9,16 @@ import speech from "../../../asset/speech.svg";
 import account from "../../../asset/account.svg";
 
 export const Footer = () => {
+  const [click, setClick] = useState(false);
+  const handclick = () => {
+    setClick(!click);
+  };
   return (
     <>
-      <div className="footer">
-        <span className="v-click">v</span>
+      <div className={click ? "v-down-click" : "footer"}>
+        <span className="v-click" onClick={handclick}>
+          v
+        </span>
         <div className="foot">
           <div className="home">
             <NavLink to="/" className="linked">

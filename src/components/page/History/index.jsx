@@ -1,18 +1,59 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./app.css";
 
 export const History = () => {
-  const slides = [
-    {url: "https://atuwatseiii.com/assets/img/crests/iwere_kings/ginuwa_ii.jpg"},
-    {url: "https://atuwatseiii.com/assets/img/crests/iwere_kings/ginuwa_ii.jpg"},
-    {url: "https://atuwatseiii.com/assets/img/crests/iwere_kings/ginuwa_ii.jpg"},
-    {url: "https://atuwatseiii.com/assets/img/crests/iwere_kings/ginuwa_ii.jpg"},
-  ];
+  const Slideshow = ({ imgs }) => {
+    const [index, setIndex] = useState(0);
   
+    useEffect(() => {
+      setIndex(0)
+    }, []) 
+  
+    const next = () => {
+      if (index === imgs.length - 1){
+        setIndex(0)
+      }
+      else{
+        setIndex(index + 1)
+      }
+    }
+  
+    const prev = () => {
+      if (index === 0) {
+        setIndex(imgs.length - 1)
+      }
+      else {
+        setIndex(index - 1)
+      }
+    }
+  
+    return (
+    <div className="slideshow w-40">
+      <img className="mainImg mrl" src={imgs[index]}  />
+      <div className="actions">
+        <button onClick={prev}>a</button>
+        <button onClick={next}>b</button>
+      </div>
+    </div>
+    )
+  }
+
   return (
     <>
       <div className="hist-container">
-        <div className="slider w-40">a</div>
+        <div className="w-40">
+          <Slideshow 
+          imgs={[
+              "https://atuwatseiii.com/assets/img/crests/iwere_kings/ginuwa_ii.jpg",
+              "https://atuwatseiii.com/assets/img/crests/iwere_kings/erejuwa.jpg",
+              "https://atuwatseiii.com/assets/img/crests/iwere_kings/omagboye.jpg",
+              "https://atuwatseiii.com/assets/img/crests/iwere_kings/abejeoye.jpg",
+              "https://atuwatseiii.com/assets/img/crests/iwere_kings/atonrongboye.jpg",
+              "https://atuwatseiii.com/assets/img/crests/iwere_kings/erejuwa_ii.jpg",
+              "https://atuwatseiii.com/assets/img/crests/iwere_kings/atogbuwa.jpg",
+           ]} />
+        </div>
+      
         <div className="monarch w-60">
           <div>
           <h1>History</h1>
@@ -62,7 +103,7 @@ export const History = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>  
     </>
   );
 };

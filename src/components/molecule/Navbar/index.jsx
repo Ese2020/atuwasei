@@ -16,14 +16,14 @@ import {
   Icon,
 } from "./app";
 
-export const Navbar = () => {
+export const Navbar = ({ click }) => {
   return (
     <>
       <NavSection>
         <NavLeft>
           <ImageHolder>
             <Photo src={logo} alt="logo" />
-            <Icon src={icon} alt="logo" />
+            <Icon src={icon} alt="logo" onClick={click} />
           </ImageHolder>
         </NavLeft>
         <NavRight>

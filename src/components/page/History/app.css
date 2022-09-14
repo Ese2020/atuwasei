@@ -1,65 +1,133 @@
 .hist-container {
-    color: #212529;
-    margin-left: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  color: #212529;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .w-40 {
-    width: 40%;
+  width: 40%;
 }
 
 .w-60 {
-    width: 60%;
+  width: 60%;
 }
 
 .w {
-    background-color: white;
-    padding: 40px;
+  background-color: white;
+  padding: 40px;
 }
 
 .mt-15 {
-    margin-top: -15px;
+  margin-top: -15px;
 }
 
 .mt-70 {
-    margin-top: -70px;
+  margin-top: -70px;
 }
 
 .mb-10 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .fs {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .monarch {
-    margin: 0;
-    padding: 30px;
-    background-color: #f6f6f8;
+  margin: 0;
+  padding: 30px;
+  background-color: #f6f6f8;
 }
 
 .monarch-history {
-    border-radius: 10px;
-    margin-top: 32px;
-    height: 75vh;
-    font-size: 0.8rem;
-    white-space: wrap;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    width: 100%;
-    background-color: white;
+  border-radius: 10px;
+  margin-top: 32px;
+  height: 75vh;
+  font-size: 0.8rem;
+  white-space: wrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: white;
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: rgb(214, 210, 210);
-    border-radius: 10px;
+  background-color: rgb(214, 210, 210);
+  border-radius: 10px;
 }
 
-  
+.mrl {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.slideshow {
+  position: relative;
+}
+
+.mainImg {
+  transition: all 500ms;
+  width: 400px;
+  vertical-align: middle;
+}
+
+.actions {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions .next {
+  right: 0px;
+}
+
+.actions button {
+  width: 20px;
+  height: 20px;
+  background: none;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.actions .next {
+  margin-right: 0;
+}
+
+.ft {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 10%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.back {
+  display: flex;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+  border-radius: 50%;
+  color: rgb(53, 52, 52);
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.backed {
+  text-decoration: none;
+}

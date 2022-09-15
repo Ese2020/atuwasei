@@ -46,12 +46,12 @@ export const History = () => {
 
   return (
     <>
-      <div className="back">
+      <div className="hist-container">
+       <div className="back">
         <NavLink to="/" className="backed">
           ⟵
         </NavLink>
       </div>
-      <div className="hist-container">
         <div className="w-40">
           <Slideshow
             imgs={[
@@ -66,7 +66,7 @@ export const History = () => {
           />
         </div>
 
-        <div className="monarch w-60">
+        <div className="monarch">
           <div className="mt-8">
             <h1>History</h1>
           </div>

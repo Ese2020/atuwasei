@@ -87,11 +87,7 @@
 .actions {
   position: absolute;
   top: 50%;
-<<<<<<< HEAD
   width: 40vw;
-=======
-  width: 100%;
->>>>>>> dd989636dd8da339f274dcfd158958db7d1264d5
   display: flex;
   justify-content: space-between;
 }
@@ -138,11 +134,8 @@
   align-items: center;
   border: 1px solid black;
   cursor: pointer;
-<<<<<<< HEAD
   margin-top: 1rem;
   margin-left: 1rem;
-=======
->>>>>>> dd989636dd8da339f274dcfd158958db7d1264d5
 }
 
 .backed {
@@ -173,12 +166,9 @@
   .w-40 {
     width: 100%;
     padding-top: 2rem;
-<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     align-items: center;
-=======
->>>>>>> dd989636dd8da339f274dcfd158958db7d1264d5
   }
   .slideshow {
     display: flex;

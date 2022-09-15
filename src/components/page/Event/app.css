@@ -20,7 +20,6 @@
   margin-left: 50px;
   margin-right: 50px;
   font-weight: 700;
-  gap: 32px;
 }
 
 Input[type="search"] {
@@ -32,5 +31,9 @@ Input[type="search"] {
 
 .fs-24 {
     font-size: 1.2rem;
+}
+
+.mr {
+  margin-right: 32px;
 }
 

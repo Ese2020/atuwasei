@@ -11,8 +11,8 @@ export const Event = () => {
         <div className="nav-list">
           <div className="">
             <span>Ceremonies</span>
-            <span>•</span>
-            <span>Events</span>
+            <span className="mr">•</span>
+            <span className="mr">Events</span>
             <input placeholder="search" type="search" value=""></input>
           </div>
           <span className="fs-24">See Blogs</span>

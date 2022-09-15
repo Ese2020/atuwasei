@@ -4,12 +4,10 @@ h2 {
 }
 
 .hist-container {
-
     color: #212529;
     margin-left: 30px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .w-40 {
@@ -49,7 +47,6 @@ h2 {
     border-top: 32px;
     padding: 30px;
     background-color: #f6f6f8;
-
 }
 
 .monarch-history {
@@ -108,7 +105,7 @@ h2 {
     border-radius: 5px;
 }
 
-.backed {
+.back {
     top: 20px;
     left: 30px;
     padding: 4px;

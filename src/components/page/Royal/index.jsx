@@ -13,7 +13,7 @@ export const Royal = () => {
         </div>
         <div className="notice-search w-30">
           <div className="">
-            <NavLink to="/" className="backed">
+            <NavLink to="/" className="back">
              ⟵
             </NavLink>
             <h1 className="mb">Royal Court Notices</h1>

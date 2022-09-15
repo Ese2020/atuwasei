@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "../../atom/NavLink";
 import { Footer } from "../../organism/Footer";
 import "./app.css";
-import { FaArrowLeft } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
+import {FaArrowLeft } from 'react-icons/fa';
+import {FaArrowRight } from 'react-icons/fa';
+
+
 
 export const History = () => {
   const Slideshow = ({ imgs }) => {
@@ -53,8 +55,8 @@ export const History = () => {
       </div>
       <div className="hist-container">
         <div className="w-40">
-          <Slideshow
-            imgs={[
+          <Slideshow 
+          imgs={[
               "https://atuwatseiii.com/assets/img/crests/iwere_kings/ginuwa_ii.jpg",
               "https://atuwatseiii.com/assets/img/crests/iwere_kings/erejuwa.jpg",
               "https://atuwatseiii.com/assets/img/crests/iwere_kings/omagboye.jpg",

@@ -81,7 +81,7 @@
 .actions {
   position: absolute;
   top: 50%;
-  width: 100%;
+  width: 200%;
   display: flex;
   justify-content: space-between;
 }
@@ -92,7 +92,7 @@
 
 .actions button {
   width: 20px;
-  height: 20px;
+  height: 40px;
   background: none;
   border: 1px solid black;
   border-radius: 5px;
@@ -116,7 +116,10 @@
     left: 30px;
     padding: 4px;
     width: 30px;
-    border: 1px solid black;
     border-radius: 50px;
     position: relative;
+}
+
+.backed {
+  text-decoration: none;
 }

@@ -30,7 +30,7 @@ export const History = () => {
     };
 
     return (
-      <div className="slideshow w-40">
+      <div className="slideshow w-40 w-30">
         <img className="mainImg" src={imgs[index]} />
         <div className="actions">
           <button onClick={prev}>

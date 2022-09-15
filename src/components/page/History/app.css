@@ -14,6 +14,10 @@
   width: 60%;
 }
 
+.w-30 {
+  width: 100%;
+}
+
 .w {
   background-color: white;
   padding: 40px;
@@ -69,6 +73,9 @@
 
 .slideshow {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mainImg {
@@ -130,4 +137,31 @@
 
 .backed {
   text-decoration: none;
+}
+
+@media screen and (max-width: 994px) {
+  .hist-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .w-60 {
+    width: 100%;
+  }
+
+  .monarch-history {
+    overflow: none;
+  }
+
+  .w-40 {
+    width: 100%;
+    padding-top: 2rem;
+    /* padding-left: 1rem; */
+    padding-right: 1rem;
+  }
+  .slideshow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -3,10 +3,14 @@
   margin-left: 30px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .w-40 {
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .w-60 {
@@ -39,7 +43,7 @@
 }
 
 .monarch {
-  border-top: 32px;
+  margin: 0;
   padding: 30px;
   background-color: #f6f6f8;
 }
@@ -72,9 +76,6 @@
 
 .slideshow {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .mainImg {
@@ -86,7 +87,7 @@
 .actions {
   position: absolute;
   top: 50%;
-  width: 200%;
+  width: 40vw;
   display: flex;
   justify-content: space-between;
 }
@@ -97,10 +98,11 @@
 
 .actions button {
   width: 20px;
-  height: 40px;
+  height: 20px;
   background: none;
   border: 1px solid black;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .actions .next {
@@ -117,12 +119,23 @@
 }
 
 .back {
-  top: 20px;
-  left: 30px;
-  padding: 4px;
-  width: 30px;
-  border-radius: 50px;
-  position: relative;
+  display: flex;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+  border-radius: 50%;
+  color: rgb(53, 52, 52);
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .backed {
@@ -133,6 +146,8 @@
   .hist-container {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin-left: 0;
   }
 
   .w-60 {
@@ -143,15 +158,25 @@
     overflow: none;
   }
 
+  .monarch {
+    width: 100%;
+    margin-left: 0px;
+  }
+
   .w-40 {
     width: 100%;
     padding-top: 2rem;
-    /* padding-left: 1rem; */
-    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .slideshow {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .actions {
+    width: 90vw;
   }
 }

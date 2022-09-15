@@ -8,15 +8,30 @@
   background-size: cover;
   background-position: center center;
 }
+
 .nav-list {
+  margin-top: -20px;
+  color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  gap: 32px;
-  font-size: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  margin-left: 50px;
+  margin-right: 50px;
   font-weight: 600;
 }
 
 Input[type="search"] {
   width: 350px;
+  color: white;
+  border: 2px solid white;
+}
+
+.fs-24 {
+    font-size: 1.2rem;
+}
+
+.gap-32 {
+    gap: 32px;
 }

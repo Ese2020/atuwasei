@@ -8,6 +8,9 @@
 
 .w-40 {
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .w-60 {
@@ -84,7 +87,7 @@
 .actions {
   position: absolute;
   top: 50%;
-  width: 100%;
+  width: 40vw;
   display: flex;
   justify-content: space-between;
 }
@@ -99,6 +102,7 @@
   background: none;
   border: 1px solid black;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .actions .next {
@@ -130,6 +134,8 @@
   align-items: center;
   border: 1px solid black;
   cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .backed {
@@ -140,6 +146,8 @@
   .hist-container {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin-left: 0;
   }
 
   .w-60 {
@@ -150,13 +158,25 @@
     overflow: none;
   }
 
+  .monarch {
+    width: 100%;
+    margin-left: 0px;
+  }
+
   .w-40 {
     width: 100%;
     padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .slideshow {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .actions {
+    width: 90vw;
   }
 }

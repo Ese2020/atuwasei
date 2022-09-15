@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.img-ic {
+  display: none;
+}
+
 .w-40 {
   width: 40%;
   display: flex;
@@ -98,7 +102,7 @@
 
 .actions button {
   width: 20px;
-  height: 20px;
+  height: 38px;
   background: none;
   border: 1px solid black;
   border-radius: 5px;
@@ -150,6 +154,11 @@
     margin-left: 0;
   }
 
+  .img-ic {
+    display: block;
+    cursor: pointer;
+  }
+
   .w-60 {
     width: 100%;
   }
@@ -158,9 +167,21 @@
     overflow: none;
   }
 
+  .backed {
+    display: none;
+  }
+
   .monarch {
     width: 100%;
     margin-left: 0px;
+  }
+  .back {
+    display: none;
+  }
+
+  .back2 {
+    padding-top: 1rem;
+    padding-left: 1rem;
   }
 
   .w-40 {

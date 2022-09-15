@@ -15,10 +15,6 @@
   width: 40%;
 }
 
-.w-60 {
-  width: 60%;
-}
-
 .w {
   background-color: white;
   padding: 40px;
@@ -69,8 +65,8 @@
 
 .slideshow {
     position: relative;
-    margin-left: 10px;
-    margin-right: 20px;
+    margin-left: -10px;
+    margin-right: 70px;
 }
 
 .mainImg {
@@ -83,7 +79,7 @@
 .actions {
   position: absolute;
   top: 60%;
-  width: 190%;
+  width: 220%;
   display: flex;
   justify-content: space-between;
 }
@@ -112,7 +108,7 @@
 .back {
   height: 35px;
   margin-top: 10px;
-  margin-left: 30px;
+  margin-left: 10px;
   padding: 5px;
   width: 35px;
   border-radius: 50px;

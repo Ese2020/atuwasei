@@ -32,11 +32,16 @@ export const History = () => {
     };
 
     return (
-    <div className="slideshow w-40">
-      <img className="mainImg" src={imgs[index]}  />
-      <div className="actions">
-        <button onClick={prev}><FaArrowLeft /></button>
-        <button onClick={next}><FaArrowRight /></button>
+      <div className="slideshow w-40">
+        <img className="mainImg" src={imgs[index]} />
+        <div className="actions">
+          <button onClick={prev}>
+            <FaArrowLeft />
+          </button>
+          <button onClick={next}>
+            <FaArrowRight />
+          </button>
+        </div>
       </div>
     </div> 
     );
@@ -65,9 +70,8 @@ export const History = () => {
         </div>
 
         <div className="monarch w-60">
-
           <div className="mt-8">
-          <h1>History</h1>
+            <h1>History</h1>
           </div>
           <div className="monarch-history">
             <div className="w mt-15">

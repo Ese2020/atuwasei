@@ -16,3 +16,50 @@
 .sd-down {
   display: none;
 }
+
+.sd-img-0:hover,
+.sd-img-1:hover,
+.sd-img-2:hover,
+.sd-img-3:hover,
+.sd-img-4:hover {
+  color: #0d6efd;
+}
+
+.sd-img {
+  margin-bottom: 40px;
+}
+
+.sd-p-s {
+  font-size: 0.6rem;
+}
+
+.sd-txt {
+  color: rgb(65, 18, 21);
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 0.78rem;
+}
+
+.sd-link {
+  text-decoration: none;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.lg {
+  width: 50px;
+  margin-left: -12px;
+}
+
+.sd-p {
+  padding-top: 8px;
+}
+
+.sd-img-0 {
+  margin-left: -15px;
+}
+
+.lg-sd {
+  margin-bottom: 35px;
+}

@@ -1,9 +1,14 @@
-.hist-container {
+* {
+  box-sizing: border-box;
   margin: 0;
-    color: #212529;
-    margin-left: 30px;
-    display: flex;
-    justify-content: space-between;
+  padding: 0;
+}
+
+.hist-container {
+  color: #212529;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .w-40 {
@@ -62,19 +67,14 @@
   border-radius: 10px;
 }
 
-.mrl {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
 .slideshow {
     position: relative;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
 .mainImg {
-  margin-top: 30px;
+  margin-top: 70px;
   transition: all 500ms;
   width: 350px;
   vertical-align: middle;
@@ -82,8 +82,8 @@
 
 .actions {
   position: absolute;
-  top: 55%;
-  width: 180%;
+  top: 60%;
+  width: 190%;
   display: flex;
   justify-content: space-between;
 }
@@ -110,11 +110,13 @@
 }
 
 .back {
-    margin-left: 30px;
-    padding: 4px;
-    width: 30px;
-    border-radius: 50px;
-    position: relative;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding: 5px;
+  width: 35px;
+  border-radius: 50px;
+  position: relative;
 }
 
 .backed {

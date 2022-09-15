@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "../../atom/NavLink";
 import { Footer } from "../../organism/Footer";
+import { SlideUp } from "../../organism";
 import "./app.css";
-import { FaArrowLeft } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
+import { FaCaretLeft } from "react-icons/fa";
+import { FaCaretRight } from "react-icons/fa";
+import icon from "../../../asset/menu2.svg";
 
 export const History = () => {
   const Slideshow = ({ imgs }) => {
@@ -34,22 +36,31 @@ export const History = () => {
         <img className="mainImg" src={imgs[index]} />
         <div className="actions">
           <button onClick={prev}>
-            <FaArrowLeft />
+            <FaCaretLeft />
           </button>
           <button onClick={next}>
-            <FaArrowRight />
+            <FaCaretRight />
           </button>
         </div>
       </div>
     );
   };
-
+  const [slideup, setSlideup] = useState(false);
+  const handleClickSlide = () => setSlideup(!slideup);
   return (
     <>
       <div className="back">
         <NavLink to="/" className="backed">
           ⟵
         </NavLink>
+      </div>
+      <div className="back2">
+        <img
+          src={icon}
+          alt="logo"
+          onClick={handleClickSlide}
+          className="img-ic"
+        />
       </div>
       <div className="hist-container">
         <div className="w-40">
@@ -256,6 +267,7 @@ export const History = () => {
       <footer className="ft">
         <Footer />
       </footer>
+      <SlideUp click={handleClickSlide} className={slideup} />
     </>
   );
 };

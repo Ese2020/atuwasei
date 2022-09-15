@@ -1,0 +1,15 @@
+.body {
+    background-image: url("");
+}
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+Input[type=search] {
+    width: 350px;
+}

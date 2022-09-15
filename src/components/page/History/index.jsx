@@ -43,7 +43,6 @@ export const History = () => {
           </button>
         </div>
       </div>
-    </div> 
     );
   };
 

@@ -3,3 +3,7 @@ export * from "./History";
 export * from "./Royal";
 export * from "./Ginuwa";
 export * from "./Warri";
+export * from "./Account";
+export * from "./Event";
+export * from "./Press";
+export * from "./Speech";

@@ -9,6 +9,7 @@ import {
   Speech,
   Press,
   Account,
+  Signed,
 } from "./components/page";
 import { Route, Routes } from "react-router-dom";
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/press" element={<Press />} />
         <Route path="/account" element={<Account />} />
         <Route path="/speech" element={<Speech />} />
+        <Route path="/signup" element={<Signed />} />
       </Routes>
     </div>
   );

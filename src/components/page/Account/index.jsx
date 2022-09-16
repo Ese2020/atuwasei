@@ -1,9 +1,9 @@
 import React from "react";
-
+import { LoginPage } from "../../template/LoginPage";
 export const Account = () => {
   return (
     <>
-      <h1>Account page</h1>
+      <LoginPage />
     </>
   );
 };

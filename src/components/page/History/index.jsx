@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "../../atom/NavLink";
 import { Footer } from "../../organism/Footer";
+import { SlideUp } from "../../organism";
 import "./app.css";
-import { FaArrowLeft } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
+import { FaCaretLeft } from "react-icons/fa";
+import { FaCaretRight } from "react-icons/fa";
+import icon from "../../../asset/menu2.svg";
 
 export const History = () => {
   const Slideshow = ({ imgs }) => {
@@ -29,29 +31,44 @@ export const History = () => {
       }
     };
 
+    // setInterval(() => {
+    //   for (let num1 = index; num1 < imgs.length; num1++) {
+    //     setIndex(index + 1);
+    //   }
+    // }, 3000);
+
     return (
-      <div className="slideshow w-40 w-30">
-        <img className="mainImg" src={imgs[index]} />
+      <div className="slideshow w-40">
+        <img className="mainImg" src={imgs[index]} alt="kings" />
         <div className="actions">
           <button onClick={prev}>
-            <FaArrowLeft />
+            <FaCaretLeft />
           </button>
           <button onClick={next}>
-            <FaArrowRight />
+            <FaCaretRight />
           </button>
         </div>
       </div>
     );
   };
-
+  const [slideup, setSlideup] = useState(false);
+  const handleClickSlide = () => setSlideup(!slideup);
   return (
     <>
-      <div className="hist-container">
-       <div className="back">
+      <div className="back">
         <NavLink to="/" className="backed">
           ⟵
         </NavLink>
       </div>
+      <div className="back2">
+        <img
+          src={icon}
+          alt="logo"
+          onClick={handleClickSlide}
+          className="img-ic"
+        />
+      </div>
+      <div className="hist-container">
         <div className="w-40">
           <Slideshow
             imgs={[
@@ -66,7 +83,7 @@ export const History = () => {
           />
         </div>
 
-        <div className="monarch">
+        <div className="monarch w-60">
           <div className="mt-8">
             <h1>History</h1>
           </div>
@@ -256,6 +273,7 @@ export const History = () => {
       <footer className="ft">
         <Footer />
       </footer>
+      <SlideUp click={handleClickSlide} className={slideup} />
     </>
   );
 };

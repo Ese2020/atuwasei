@@ -31,9 +31,15 @@ export const History = () => {
       }
     };
 
+    // setInterval(() => {
+    //   for (let num1 = index; num1 < imgs.length; num1++) {
+    //     setIndex(index + 1);
+    //   }
+    // }, 3000);
+
     return (
       <div className="slideshow w-40">
-        <img className="mainImg" src={imgs[index]} />
+        <img className="mainImg" src={imgs[index]} alt="kings" />
         <div className="actions">
           <button onClick={prev}>
             <FaCaretLeft />

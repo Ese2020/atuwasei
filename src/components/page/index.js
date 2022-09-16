@@ -7,3 +7,4 @@ export * from "./Account";
 export * from "./Event";
 export * from "./Press";
 export * from "./Speech";
+export * from "./Signed";

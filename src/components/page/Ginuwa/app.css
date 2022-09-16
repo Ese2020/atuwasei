@@ -35,6 +35,7 @@
     padding: 20px;
     background-color: white;
 }
+
 input {
     padding: 14px;
     background-color: transparent;
@@ -45,18 +46,51 @@ input {
     font-size: 0.9rem;
     margin-bottom: 1rem;
     margin-top: 8px;
-  }
+}
 
-  .back {
+.back {
     position: relative;
     top: -20px;
     left: -15px;
     border: 1px solid black;
     text-decoration: none;
- }
+}
 
- .gin-cards {
+.gin-cards {
     display: flex;
     justify-content: space-between;
     gap: 32px;
- }
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.card1 {
+    margin-top: 32px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.card-logo {
+    padding: 10px;
+    background-image: url(../../../asset/logo.png);
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-details {
+    padding-right: 20px;
+}

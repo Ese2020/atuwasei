@@ -18,7 +18,22 @@ export const Ginuwa = () => {
             <input type="text" placeholder="search" />
           </div>
           <div className="gin-cards">
-          <div>a</div>
+          <div className="cards">
+            <div className="card1">
+              <div className="card-logo"></div>
+              <div className="card-details">
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              </div>
+            </div>
+            <div className="card2"></div>
+          </div>
           <div>b</div>
           </div>
         </div>

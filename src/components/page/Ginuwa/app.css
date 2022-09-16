@@ -14,6 +14,10 @@
     display: flex;
 }
 
+.t-20 {
+    margin-top: -20px;
+}
+
 .gin-img{
     background-image: url(../../../asset/ginuwabg.png);
     background-size: cover;
@@ -24,7 +28,35 @@
 }
 
 .gin-info {
-    background-color: white;
     margin-top: 0;
-    padding: 20px;
 }
+
+.gin-details {
+    padding: 20px;
+    background-color: white;
+}
+input {
+    padding: 14px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 50%;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    margin-top: 8px;
+  }
+
+  .back {
+    position: relative;
+    top: -20px;
+    left: -15px;
+    border: 1px solid black;
+    text-decoration: none;
+ }
+
+ .gin-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+ }

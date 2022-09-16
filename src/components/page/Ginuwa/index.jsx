@@ -152,7 +152,18 @@ export const Ginuwa = () => {
           </div>
           <hr className="break" />
           <div className="gin-descrip">
-          <div className="card-logo mt"></div>
+          <div className="card2-logo mt"></div>
+          <h3>Olu Atuwatse III</h3>
+          <p className="mb">Present</p>
+          <h5 className="mb">Reign</h5>
+          <div className="more-details">
+            <p className="fs mb">
+              <b>Start:</b>
+              "21 August 2021"
+              <span className="fs ml"><b>End:</b></span>
+            </p>
+            <p className="fs">21st Olu. Tsola Emiko born to Olu Atuwatse II and Olori Gladys Durorike Emiko on 2 April 1984. He succeeded his uncle and is married to Olori Ivie Emiko (née Okunbo). They have three children.</p>
+          </div>
           </div>
           </div>
         </div>

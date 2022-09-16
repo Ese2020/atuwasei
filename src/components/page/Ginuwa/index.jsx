@@ -1,9 +1,13 @@
 import React from "react";
+import "./app.css";
 
 export const Ginuwa = () => {
   return (
     <>
-      <h1>Hello World 2</h1>
+    <div>
+      <div className="gin-img"></div>
+      <div></div>
+    </div>
     </>
   );
 };

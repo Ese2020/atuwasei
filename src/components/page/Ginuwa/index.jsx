@@ -19,7 +19,7 @@ export const Ginuwa = () => {
           </div>
           <div className="gin-cards">
           <div className="cards">
-            <div className="card1">
+            <div className="card1 mb">
               <div className="card-logo"></div>
               <div className="card-details">
               <div>
@@ -32,9 +32,128 @@ export const Ginuwa = () => {
               </div>
               </div>
             </div>
-            <div className="card2"></div>
+            <div className="card2 mb">
+            <div className="card-logo"></div>
+              <div className="card-details">
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              </div>
+            </div>
+            <div className="card3 mb">
+            <div className="card-logo"></div>
+              <div className="card-details">
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              </div>
+            </div>
+            <div className="card4 mb">
+            <div className="card-logo"></div>
+              <div className="card-details">
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              </div>
+            </div>
+            <div className="card5 mb">
+            <div className="card-logo"></div>
+              <div className="card-details">
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              </div>
+            </div>
+            <div className="card6 mb">
+            <div className="card-logo"></div>
+              <div className="card-details">
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              </div>
+            </div>
+            <div className="card7 mb">
+            <div className="card-logo"></div>
+              <div className="card-details">
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              </div>
+            </div>
+            <div className="card8 mb">
+            <div className="card-logo"></div>
+              <div className="card-details">
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              </div>
+            </div>
+            <div className="card9 mb">
+            <div className="card-logo"></div>
+              <div className="card-details">
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              </div>
+            </div>
+            <div className="card10 mb">
+            <div className="card-logo"></div>
+              <div className="card-details">
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              <div>
+              <h5>Olu Atuwatse III</h5>
+              <p>Present</p>
+              </div>
+              </div>
+            </div>
           </div>
-          <div>b</div>
+          <hr className="break" />
+          <div className="gin-descrip">
+          <div className="card-logo mt"></div>
+          </div>
           </div>
         </div>
       </div>

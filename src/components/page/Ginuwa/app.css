@@ -18,6 +18,14 @@
     margin-top: -20px;
 }
 
+.mt {
+    margin-top: 32px;
+}
+
+.mb {
+    margin-bottom: 16px;
+}
+
 .gin-img{
     background-image: url(../../../asset/ginuwabg.png);
     background-size: cover;
@@ -59,12 +67,27 @@ input {
 .gin-cards {
     display: flex;
     justify-content: space-between;
-    gap: 32px;
+    gap: 0px;
     padding: 20px;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
 }
 
 .card {
     background-color: white;
+}
+
+.cards {
+    width: 50%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: wrap;
+    height: 60vh;
 }
 
 .card:hover {
@@ -72,25 +95,59 @@ input {
     background-color: red;
 }
 
-.card1 {
-    margin-top: 32px;
+.card1,
+.card2,
+.card3, 
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9,
+.card10,
+.card11
+.card12{
     background-color: white;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     gap: 4px;
     align-items: center;
 }
 
 .card-logo {
+    border: 1px solid ;
     padding: 10px;
     background-image: url(../../../asset/logo.png);
-    width: 120px;
+    width: 130px;
     height: 120px;
     background-position: center;
     background-size: cover;
 }
 
+.card-logo:hover {
+    background: block;
+    cursor: pointer;
+}
+
 .card-details {
     padding-right: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    width: 4px;
+}
+
+.break {
+    background-color: rgb(203, 203, 203);
+    width: 5px;
+    border-radius: 5px;
+    height: 60vh;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.gin-descrip {
+    width: 50%;
 }

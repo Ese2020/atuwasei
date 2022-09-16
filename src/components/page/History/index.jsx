@@ -69,7 +69,7 @@ export const History = () => {
         />
       </div>
       <div className="hist-container">
-        <div className="w-40">
+        <div className="w-40 mrl">
           <Slideshow
             imgs={[
               "https://atuwatseiii.com/assets/img/crests/iwere_kings/ginuwa_ii.jpg",

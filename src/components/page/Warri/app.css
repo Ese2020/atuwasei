@@ -24,7 +24,7 @@
     border-radius: 30px;
 }
 
-.gin-container {
+.warri-container {
     display: flex;
 }
 
@@ -44,8 +44,8 @@
     margin-left: 16px;
 }
 
-.gin-img{
-    background-image: url(../../../asset/ginuwabg.png);
+.warri-img{
+    background-image: url(../../../asset/awala-crowning.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -53,11 +53,11 @@
     height: 100vh;
 }
 
-.gin-info {
+.warri-info {
     margin-top: 0;
 }
 
-.gin-details {
+.warri-details {
     padding: 20px;
     background-color: white;
 }
@@ -82,7 +82,7 @@ input {
     text-decoration: none;
 }
 
-.gin-cards {
+.warri-cards {
     display: flex;
     justify-content: space-between;
     gap: 0px;
@@ -136,9 +136,9 @@ input {
 .card-logo {
     border: 1px solid ;
     padding: 10px;
-    background-image: url(../../../asset/logo.png);
-    width: 130px;
-    height: 120px;
+    background-image: url(../../../asset/traditional_council.jpg);
+    width: 70px;
+    height: 70px;
     background-position: center;
     background-size: cover;
 }
@@ -166,7 +166,7 @@ input {
     margin-right: 20px;
 }
 
-.gin-descrip {
+.warri-descrip {
     width: 60%;
     display: flex;
     flex-direction: column;

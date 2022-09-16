@@ -12,15 +12,15 @@ export const Gallery = () => {
             </div>
             <div className="grid-info">
                 <div className="photo"></div>
-                <Text>Ògíamẹ̀'s Speech | Ògíamẹ̀ Atúwàtse III Economic Summit</Text>
+                <Text>Komolafe's Speech | Ògíamẹ̀ Atúwàtse III Economic Summit</Text>
             </div>
             <div className="grid-info">
                 <div className="photo"></div>
-                <Text>Ògíamẹ̀'s Speech | Ògíamẹ̀ Atúwàtse III Economic Summit</Text>
+                <Text>Ògíamẹ̀ Visits Asantehene, Kumasi, Ghana | AkwasidaeFestival</Text>
             </div>
             <div className="grid-info">
                 <div className="photo"></div>
-                <Text>Ògíamẹ̀'s Speech | Ògíamẹ̀ Atúwàtse III Economic Summit</Text>
+                <Text>VP Prof. Yemi Osinbajo Official Visit to Ogiame Atuwatse III, The Olu of Warri.</Text>
             </div>
         </div>
         </>

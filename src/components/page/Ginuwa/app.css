@@ -40,6 +40,10 @@
     margin-top: 32px;
 }
 
+.mt-8 {
+    margin-top: 8px;
+}
+
 .mt-16 {
     margin-top: -16px;
 }
@@ -109,7 +113,7 @@ input[type=text] {
 }
 
 .cards {
-    width: 50%;
+    width: 60%;
     overflow-y: scroll;
     overflow-x: hidden;
     white-space: wrap;
@@ -119,20 +123,10 @@ input[type=text] {
 .card:hover {
     cursor: pointer;
     background-color: red;
+    color: white;
 }
 
-.card1,
-.card2,
-.card3, 
-.card4,
-.card5,
-.card6,
-.card7,
-.card8,
-.card9,
-.card10,
-.card11
-.card12{
+.card {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
@@ -142,18 +136,12 @@ input[type=text] {
 }
 
 .card-logo {
-    border: 1px solid;
     padding: 10px;
-    background-image: url(../../../asset/logo.png);
-    width: 130px;
+    background-image: url(../../../asset/atuwatse_iii2.jpg);
+    width: 120px;
     height: 120px;
     background-position: center;
     background-size: cover;
-}
-
-.card-logo:hover {
-    background: block;
-    cursor: pointer;
 }
 
 .card-details {
@@ -181,7 +169,6 @@ input[type=text] {
 }
 
 .card2-logo {
-    border: 1px solid ;
     padding: 10px;
     background-image: url(../../../asset/logo.png);
     width: 140px;

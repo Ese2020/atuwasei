@@ -93,7 +93,7 @@
 }
 
 .speech-search {
-    height: 190px;
+    height: 180px;
     background: white;
     padding: 20px;
 }
@@ -119,7 +119,7 @@ input[type=text] {
 }
 
 .speech-cards{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .speech-card1 {

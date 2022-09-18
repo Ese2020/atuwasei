@@ -5,117 +5,126 @@
 .h5,
 .h6,
 .p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .bc {
-    background-color: #f6f6f8;
+  background-color: #f6f6f8;
 }
 
 .fs {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .w-60 {
-    width: 60%;
+  width: 60%;
 }
 
 .br-30 {
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
-.warri-container {
-    display: flex;
+.gin-container {
+  display: flex;
+  height: 100%;
 }
 
 .t-20 {
-    margin-top: -20px;
+  margin-top: -20px;
 }
 
 .mt {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 .mb {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .ml {
-    margin-left: 16px;
+  margin-left: 16px;
 }
 
-.warri-img{
-    background-image: url(../../../asset/awala-crowning.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 40%;
-    height: 100vh;
+.gin-img {
+  background-image: url(../../../asset/awala-crowning.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 40%;
+  height: 100vh;
 }
 
-.warri-info {
-    margin-top: 0;
+.gin-info {
+  margin-top: 0;
 }
 
-.warri-details {
-    padding: 20px;
-    background-color: white;
+.gin-details {
+  padding: 20px;
+  background-color: white;
 }
 
 input {
-    padding: 14px;
-    background-color: transparent;
-    border: 1px solid black;
-    border-radius: 50px;
-    width: 50%;
-    text-decoration: none;
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-    margin-top: 8px;
+  padding: 14px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 100%;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  margin-top: 8px;
 }
 
 .back {
-    position: relative;
-    top: -20px;
-    left: -15px;
-    border: 1px solid black;
-    text-decoration: none;
+  position: relative;
+  top: -20px;
+  left: -15px;
+  border: 1px solid black;
+  text-decoration: none;
 }
 
-.warri-cards {
-    display: flex;
-    justify-content: space-between;
-    gap: 0px;
-    padding: 20px;
+.gin-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
+  padding: 20px;
 }
 
 .cont {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
 }
 
 .card {
-    background-color: white;
+  background-color: white;
 }
 
 .cards {
-    width: 50%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    white-space: wrap;
-    height: 60vh;
+  width: 50%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  white-space: wrap;
+  height: 60vh;
+}
+.ft {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 10%;
+  width: 100%;
+  /* border: 1px solid black; */
 }
 
 .card:hover {
-    cursor: pointer;
-    background-color: red;
+  cursor: pointer;
+  background-color: red;
 }
 
 .card1,
 .card2,
-.card3, 
+.card3,
 .card4,
 .card5,
 .card6,
@@ -123,65 +132,126 @@ input {
 .card8,
 .card9,
 .card10,
-.card11
-.card12{
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    gap: 4px;
-    align-items: center;
+.card11 .card12 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.back2 {
+  display: none;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover,
+.card7:hover,
+.card8:hover,
+.card9:hover,
+.card10:hover,
+.card11:hover,
+.card12:hover {
+  background-color: #d30002;
+  padding: 10px;
+  border-radius: 1rem;
+  color: white;
 }
 
 .card-logo {
-    border: 1px solid ;
-    padding: 10px;
-    background-image: url(../../../asset/traditional_council.jpg);
-    width: 70px;
-    height: 70px;
-    background-position: center;
-    background-size: cover;
+  border: 1px solid;
+  padding: 10px;
+  background-image: url(../../../asset/logo.png);
+  width: 130px;
+  height: 120px;
+  background-position: center;
+  background-size: cover;
 }
 
 .card-logo:hover {
-    background: block;
-    cursor: pointer;
+  background: block;
+  cursor: pointer;
 }
 
 .card-details {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 ::-webkit-scrollbar {
-    display: none;
-    width: 4px;
+  display: none;
+  width: 4px;
 }
 
 .break {
-    background-color: rgb(203, 203, 203);
-    width: 5px;
-    border-radius: 5px;
-    height: 60vh;
-    margin-left: 20px;
-    margin-right: 20px;
+  background-color: rgb(203, 203, 203);
+  width: 5px;
+  border-radius: 5px;
+  height: 60vh;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.warri-descrip {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
+.gin-descrip {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 .card2-logo {
-    border: 1px solid ;
-    padding: 10px;
-    background-image: url(../../../asset/logo.png);
-    width: 140px;
-    height: 120px;
-    background-position: center;
-    background-size: cover;
+  border: 1px solid;
+  padding: 10px;
+  background-image: url(../../../asset/logo.png);
+  width: 140px;
+  height: 120px;
+  background-position: center;
+  background-size: cover;
 }
 
 .more-details {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .gin-img {
+    display: none;
+  }
+  .gin-cards,
+  .gin-details {
+    width: 100vw;
+    padding-right: 0px;
+  }
+  input {
+    width: 90vw;
+  }
+  .w-60 {
     width: 100%;
+  }
+  .back {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .gin-descrip {
+    display: none;
+    width: 0%;
+  }
+  .back {
+    display: none;
+  }
+  .back2 {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    position: fixed;
+    display: block;
+  }
+  h1 {
+    font-size: 1.5rem;
+    padding-top: 3rem;
+  }
 }

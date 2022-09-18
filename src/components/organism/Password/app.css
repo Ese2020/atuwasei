@@ -27,9 +27,9 @@ form > input {
   cursor: pointer;
 }
 
-.lg-fd {
-  color: red;
-  font-size: 0.6rem;
+.lg-fd-d {
+  color: #0550ae;
+  font-size: 0.8rem;
 }
 .lg-btn {
   padding: 10px;

@@ -8,6 +8,14 @@
   background-size: cover;
   background-position: center center;
 }
+.ft {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 10%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
 
 .nav-list {
   margin-top: -32px;

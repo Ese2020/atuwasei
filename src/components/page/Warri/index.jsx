@@ -18,151 +18,111 @@ export const Warri = () => {
             <input type="text" placeholder="search" />
           </div>
           <div className="warri-cards">
-          <div className="cards">
-            <div className="card1 mb">
-              <div className="card-logo"></div>
-              <div className="card-details">
+          <div className="w-cards">
+            <div className="w-card1 mb">
+              <div className="w-card-logo"></div>
+              <div className="w-card-details">
               <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
-              </div>
-              <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
+              <h5>Chief Johnson Amatserunleghe</h5>
+              <p>The Iyatsere of Warri</p>
               </div>
               </div>
             </div>
-            <div className="card2 mb">
-            <div className="card-logo"></div>
-              <div className="card-details">
+            <div className="w-card2 mb">
+            <div className="w-card-logo"></div>
+              <div className="w-card-details">
               <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
-              </div>
-              <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
+              <h5>Chief Gabriel Awala</h5>
+              <p>The Uwangue of Warri</p>
               </div>
               </div>
             </div>
-            <div className="card3 mb">
-            <div className="card-logo"></div>
-              <div className="card-details">
+            <div className="w-card3 mb">
+            <div className="w-card-logo"></div>
+              <div className="w-card-details">
               <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
-              </div>
-              <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
+              <h5>Chief T.Y. Pessu</h5>
+              <p>The Ojomo of Warri</p>
               </div>
               </div>
             </div>
-            <div className="card4 mb">
-            <div className="card-logo"></div>
-              <div className="card-details">
+            <div className="w-card4 mb">
+            <div className="w-card-logo"></div>
+              <div className="w-card-details">
               <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
-              </div>
-              <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
+              <h5>Chief Sunday Rone</h5>
+              <p> The Obazuaye of Warri</p>
               </div>
               </div>
             </div>
-            <div className="card5 mb">
-            <div className="card-logo"></div>
-              <div className="card-details">
+            <div className="w-card5 mb">
+            <div className="w-card-logo"></div>
+              <div className="w-card-details">
               <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
-              </div>
-              <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
+              <h5>Chief (Dr.) P.E.B. Uku</h5>
+              <p>The Ere Oluyon of Warri</p>
               </div>
               </div>
             </div>
-            <div className="card6 mb">
-            <div className="card-logo"></div>
-              <div className="card-details">
+            <div className="w-card6 mb">
+            <div className="w-card-logo"></div>
+              <div className="w-card-details">
               <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
-              </div>
-              <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
+              <h5>Chief G.T. Grant</h5>
+              <p>The Agura-Otiri of Warri</p>
               </div>
               </div>
             </div>
-            <div className="card7 mb">
-            <div className="card-logo"></div>
-              <div className="card-details">
+            <div className="w-card7 mb">
+            <div className="w-card-logo"></div>
+              <div className="w-card-details">
               <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
-              </div>
-              <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
+              <h5>Chief (Mrs.) R. L. Ogbebor</h5>
+              <p>The Igba of Warri</p>
               </div>
               </div>
             </div>
-            <div className="card8 mb">
-            <div className="card-logo"></div>
-              <div className="card-details">
+            <div className="w-card8 mb">
+            <div className="w-card-logo"></div>
+              <div className="w-card-details">
               <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
-              </div>
-              <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
+              <h5>Chief Kofi Kartey</h5>
+              <p>The Abolujiyan of Warri</p>
               </div>
               </div>
             </div>
-            <div className="card9 mb">
-            <div className="card-logo"></div>
-              <div className="card-details">
+            <div className="w-card9 mb">
+            <div className="w-card-logo"></div>
+              <div className="w-card-details">
               <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
-              </div>
-              <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
+              <h5>Chief Brown Mene</h5>
+              <p>The Ogwaolusan of Warri</p>
               </div>
               </div>
             </div>
-            <div className="card10 mb">
-            <div className="card-logo"></div>
-              <div className="card-details">
+            <div className="w-card10 mb">
+            <div className="w-card-logo"></div>
+              <div className="w-card-details">
               <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
-              </div>
-              <div>
-              <h5>Olu Atuwatse III</h5>
-              <p>Present</p>
+              <h5>Chief Elder Walter Odeli (JP)</h5>
+              <p>The Oritsegbogwa of Warri</p>
               </div>
               </div>
             </div>
           </div>
           <hr className="break" />
           <div className="warri-descrip">
-          <div className="card2-logo mt"></div>
-          <h3>Olu Atuwatse III</h3>
-          <p className="mb">Present</p>
-          <h5 className="mb">Reign</h5>
+          <div className="w-card2-logo mt"></div>
+          <h3>Chief Johnson Amatserunleghe</h3>
           <div className="more-details">
             <p className="fs mb">
-              <b>Start:</b>
-              "21 August 2021"
-              <span className="fs ml"><b>End:</b></span>
+              <b>Title:</b>
+              The Iyatsere of Warri
             </p>
-            <p className="fs">21st Olu. Tsola Emiko born to Olu Atuwatse II and Olori Gladys Durorike Emiko on 2 April 1984. He succeeded his uncle and is married to Olori Ivie Emiko (née Okunbo). They have three children.</p>
+            <p className="fs mb">
+              <b>Appellation:</b>
+              Uji
+            </p>
           </div>
           </div>
           </div>

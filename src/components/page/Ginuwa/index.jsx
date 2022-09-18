@@ -14,7 +14,7 @@ export const Ginuwa = () => {
              ⟵
             </NavLink>
             <h1 className="mb t-20">The Ginuwa Ruling House</h1>
-            <p className="fs-14">Warri Kingdom.</p>
+            <p className="fs-14 mt-16">Warri Kingdom.</p>
             <input type="text" placeholder="search" />
           </div>
           <div className="gin-cards">

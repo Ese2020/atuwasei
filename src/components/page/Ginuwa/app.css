@@ -36,6 +36,10 @@
     margin-top: 32px;
 }
 
+.mt-16 {
+    margin-top: -16px;
+}
+
 .mb {
     margin-bottom: 16px;
 }
@@ -62,7 +66,7 @@
     background-color: white;
 }
 
-input {
+input[type=text] {
     padding: 14px;
     background-color: transparent;
     border: 1px solid black;
@@ -134,7 +138,7 @@ input {
 }
 
 .card-logo {
-    border: 1px solid ;
+    border: 1px solid;
     padding: 10px;
     background-image: url(../../../asset/logo.png);
     width: 130px;

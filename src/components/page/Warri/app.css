@@ -96,11 +96,11 @@ input {
     padding: 10px;
 }
 
-.card {
+.w-card {
     background-color: white;
 }
 
-.cards {
+.w-cards {
     width: 50%;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -108,23 +108,23 @@ input {
     height: 60vh;
 }
 
-.card:hover {
+.w-card:hover {
     cursor: pointer;
     background-color: red;
 }
 
-.card1,
-.card2,
-.card3, 
-.card4,
-.card5,
-.card6,
-.card7,
-.card8,
-.card9,
-.card10,
-.card11
-.card12{
+.w-card1,
+.w-card2,
+.w-card3, 
+.w-card4,
+.w-card5,
+.w-card6,
+.w-card7,
+.w-card8,
+.w-card9,
+.w-card10,
+.w-card11
+.w-card12{
     background-color: white;
     padding: 10px;
     border-radius: 10px;
@@ -133,7 +133,7 @@ input {
     align-items: center;
 }
 
-.card-logo {
+.w-card-logo {
     border: 1px solid ;
     padding: 10px;
     background-image: url(../../../asset/traditional_council.jpg);
@@ -143,12 +143,12 @@ input {
     background-size: cover;
 }
 
-.card-logo:hover {
+.w-card-logo:hover {
     background: block;
     cursor: pointer;
 }
 
-.card-details {
+.w-card-details {
     padding-right: 20px;
 }
 
@@ -172,12 +172,11 @@ input {
     flex-direction: column;
 }
 
-.card2-logo {
-    border: 1px solid ;
+.w-card2-logo {
     padding: 10px;
-    background-image: url(../../../asset/logo.png);
-    width: 140px;
-    height: 120px;
+    background-image: url(../../../asset/traditional_council.jpg);
+    width: 100px;
+    height: 100px;
     background-position: center;
     background-size: cover;
 }

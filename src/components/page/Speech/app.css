@@ -1,0 +1,117 @@
+.bc {
+    background-color: #f6f6f8;
+}
+
+.fs-14 {
+    font-size: 	0.75rem;
+}
+
+.w-35 {
+    width: 30%;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.w-50 {
+    width: 40%;
+}
+
+.w {
+    background-color: white;
+}
+
+.mt-16 {
+    margin-top: -16px;
+}
+
+.mt-8 {
+    margin-top: -8px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.h-5 {
+    height: 5px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.mb {
+    margin-bottom: 8px;
+}
+
+.speech {
+    width: 100%;
+    display: flex;
+}
+
+.speech-title {
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 120px;
+    padding: 20px;
+}
+
+.speech-details {
+    height: 75vh;
+    white-space: wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(214, 210, 210);
+    border-radius: 10px;
+  }
+
+.speech-img {
+    background-image: url(../../../asset/speeches.png);
+    width: 35%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.speech-search {
+    height: 190px;
+    background: white;
+    padding: 20px;
+}
+
+input[type=text] {
+    padding: 14px;
+    background-color: transparent;
+    border: 2px solid rgb(134, 133, 133);
+    border-radius: 50px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    margin-top: 8px;
+}
+
+.back {
+   margin-top: 10px;
+   position: relative;
+   margin-left: 14px;
+   border: 1px solid black;
+   text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: #f6f6f8;
+    }
+}

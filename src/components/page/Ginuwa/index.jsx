@@ -36,12 +36,12 @@ export const Ginuwa = () => {
             <div className="card-logo"></div>
               <div className="card-details">
               <div>
-              <h5>Olu Atuwatse III</h5>
-              <p className="fs mt-8">Present</p>
+              <h5>Ikenwoli I Godfery Emiko</h5>
+              <p className="fs mt-8">19 March 1955 – 21 December 2020</p>
               </div>
               <div>
               <h5 className="mt-8">Reign</h5>
-              <p className="fs mt-8"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
+              <p className="fs mt-8"><b>Start:</b>12 December 2015<span className="ml"><b>End:</b></span> <br />21 December 2020</p>
               </div>
               </div>
             </div>
@@ -49,12 +49,12 @@ export const Ginuwa = () => {
             <div className="card-logo"></div>
               <div className="card-details">
               <div>
-              <h5 className="mt-8">Olu Atuwatse III</h5>
-              <p className="fs mt-8">Present</p>
+              <h5 className="mt-8">Olu Atuwatse II Godwin Toritseju Emiko</h5>
+              <p className="fs mt-8">c.1945 - 5 September 2015</p>
               </div>
               <div>
               <h5>Reign</h5>
-              <p className="fs mt-8"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
+              <p className="fs mt-8"><b>Start:</b>2 May 1987<span className="ml"><b>End:</b>5 September 2015</span></p>
               </div>
               </div>
             </div>

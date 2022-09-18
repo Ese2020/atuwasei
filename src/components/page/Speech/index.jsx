@@ -16,6 +16,14 @@ export const Speech = () => {
             <h1 className="mb mt-16 fs-32 mt-32 fw">Speeches</h1>
             <input type="text" placeholder="search" />
             </div>
+            <div className="speech-cards">
+              <div className="speech-card1">
+                <h5>A New Dawn (Keynote Speech at the PIA Summit)</h5>
+                <p>The image you see of the iceberg of the African Continent, is one of the most powerful images...</p>
+                <p className="fs-14">2022-05-26 23:42:59</p>
+              </div>
+              <div></div>
+            </div>
         </div>
         <div className="d-flex w-50">
         <div className="speech-title">

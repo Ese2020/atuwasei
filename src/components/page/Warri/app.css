@@ -36,6 +36,14 @@
     margin-top: 32px;
 }
 
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-4 {
+    margin-top: 4px;
+}
+
 .mb {
     margin-bottom: 16px;
 }
@@ -100,6 +108,12 @@ input {
     background-color: white;
 }
 
+.warri-card:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
 .w-cards {
     width: 50%;
     overflow-y: scroll;
@@ -111,20 +125,10 @@ input {
 .w-card:hover {
     cursor: pointer;
     background-color: red;
+    color: white;
 }
 
-.w-card1,
-.w-card2,
-.w-card3, 
-.w-card4,
-.w-card5,
-.w-card6,
-.w-card7,
-.w-card8,
-.w-card9,
-.w-card10,
-.w-card11
-.w-card12{
+.w-card{
     background-color: white;
     padding: 10px;
     border-radius: 10px;
@@ -134,7 +138,6 @@ input {
 }
 
 .w-card-logo {
-    border: 1px solid ;
     padding: 10px;
     background-image: url(../../../asset/traditional_council.jpg);
     width: 70px;

@@ -19,10 +19,14 @@ export const Speech = () => {
             <div className="speech-cards">
               <div className="speech-card1">
                 <h5>A New Dawn (Keynote Speech at the PIA Summit)</h5>
-                <p>The image you see of the iceberg of the African Continent, is one of the most powerful images...</p>
-                <p className="fs-14">2022-05-26 23:42:59</p>
+                <p className="mt">The image you see of the iceberg of the African Continent, is one of the most powerful images...</p>
+                <p className="fs-14 mt">2022-05-26 23:42:59</p>
               </div>
-              <div></div>
+              <div className="speech-card1 mtop-32">
+                <h5>Coronation Speech</h5>
+                <p className="mt">In the name of the most High God, we warmly welcome you all to this distinctly notable day in the...</p>
+                <p className="fs-14 mt">2021-08-21 18:59:07</p>
+              </div>
             </div>
         </div>
         <div className="d-flex w-50">

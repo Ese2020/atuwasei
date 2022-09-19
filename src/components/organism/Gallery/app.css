@@ -55,18 +55,18 @@
 }
 
 .play {
-  background-image: url(../../../asset/circle-play-solid.svg);
+  background-image: url(../../../asset/pngtree-play-icon-image_1128351.jpg);
+  border-radius: 30px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  z-index: 1;
-  border: none;
-  top: 30%;
-  left: 20%;
-  vertical-align: middle;
-  width: 50px;
-  height: 50px;
+  z-index: 0;
+  top: 18%;
+  left: 30%;
+  width: 60px;
+  height: 60px;
   font-size: 0.6rem;
   position: absolute;
+  position: sticky;
   cursor: pointer;
 }

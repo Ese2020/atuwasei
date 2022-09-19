@@ -1,6 +1,6 @@
 .event-body {
   background-image: url(../../../asset/background-image.png);
-  height: 140vh;
+  height: 100vh;
   width: 100%;
   position: absolute;
   top: 0px;
@@ -8,9 +8,18 @@
   background-size: cover;
   background-position: center center;
 }
+.ft {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 10%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
 
 .nav-list {
   margin-top: -32px;
+  padding-top: 2rem;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -30,10 +39,9 @@ Input[type="search"] {
 }
 
 .fs-24 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .mr {
   margin-right: 32px;
 }
-

@@ -10,9 +10,21 @@ import {
   Press,
   Account,
   Signed,
+  Logined,
+  Logouted,
+  Passworded,
 } from "./components/page";
-import { Route, Routes } from "react-router-dom";
+import { useContext } from "react";
+import { Route, Routes, Navigate } from "react-router-dom";
+import { AuthContext } from "./context/AuthContext";
+
 function App() {
+  const { currentUser } = useContext(AuthContext);
+
+  const RequireAuth = ({ children }) => {
+    return currentUser ? children : <Navigate to="/login" />;
+  };
+
   return (
     <div className="App">
       <Routes>
@@ -22,10 +34,41 @@ function App() {
         <Route path="/warritraditionalcouncil" element={<Warri />} />
         <Route path="/royalcourtnotices" element={<Royal />} />
         <Route path="/event" element={<Event />} />
-        <Route path="/press" element={<Press />} />
+        <Route
+          path="/press"
+          element={
+            <RequireAuth>
+              <Press />
+            </RequireAuth>
+          }
+        />
         <Route path="/account" element={<Account />} />
-        <Route path="/speech" element={<Speech />} />
+        <Route
+          path="/speech"
+          element={
+            <RequireAuth>
+              <Speech />
+            </RequireAuth>
+          }
+        />
         <Route path="/signup" element={<Signed />} />
+        <Route path="/login" element={<Logined />} />
+        <Route
+          path="/logout"
+          element={
+            <RequireAuth>
+              <Logouted />
+            </RequireAuth>
+          }
+        />
+        <Route
+          path="/changepassword"
+          element={
+            <RequireAuth>
+              <Passworded />
+            </RequireAuth>
+          }
+        />
       </Routes>
     </div>
   );

@@ -27,7 +27,7 @@ export const Footer = () => {
             </NavLink>
           </div>
           <div className="press">
-            <NavLink to="/account" className="linked">
+            <NavLink to="/press" className="linked">
               <Svg src={press} alt="press" />
               <div className="up">Press</div>
             </NavLink>

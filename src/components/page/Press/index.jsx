@@ -1,9 +1,10 @@
 import React from "react";
+import { PressPage } from "../../template";
 
 export const Press = () => {
   return (
     <>
-      <h1>Press page</h1>
+      <PressPage />
     </>
   );
 };

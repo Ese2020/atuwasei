@@ -14,7 +14,7 @@ export const Ginuwa = () => {
              ⟵
             </NavLink>
             <h1 className="mb t-20">The Ginuwa Ruling House</h1>
-            <p className="fs-14 mt-16">Warri Kingdom.</p>
+            <p className="fs-14 gin-text">Warri Kingdom.</p>
             <input type="text" placeholder="search" />
           </div>
           <div className="gin-cards">
@@ -24,11 +24,11 @@ export const Ginuwa = () => {
               <div className="card-details">
               <div>
               <h5>Olu Atuwatse III</h5>
-              <p className="fs mt-8">Present</p>
+              <p className="fs date">Present</p>
               </div>
               <div>
-              <h5 className="mt-8">Reign</h5>
-              <p className="fs mt-8"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
+              <h5 className="time">Reign</h5>
+              <p className="fs date"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
               </div>
               </div>
             </div>
@@ -37,11 +37,11 @@ export const Ginuwa = () => {
               <div className="card-details">
               <div>
               <h5>Ikenwoli I Godfery Emiko</h5>
-              <p className="fs mt-8">19 March 1955 – 21 December 2020</p>
+              <p className="fs date">19 March 1955 – 21 December 2020</p>
               </div>
               <div>
-              <h5 className="mt-8">Reign</h5>
-              <p className="fs mt-8"><b>Start:</b>12 December 2015<span className="ml"><b>End:</b></span> <br />21 December 2020</p>
+              <h5 className="time">Reign</h5>
+              <p className="fs date"><b>Start:</b>12 December 2015<span className="ml"><b>End:</b></span> <br />21 December 2020</p>
               </div>
               </div>
             </div>
@@ -49,8 +49,8 @@ export const Ginuwa = () => {
             <div className="card-logo"></div>
               <div className="card-details">
               <div>
-              <h5 className="mt-8">Olu Atuwatse II Godwin Toritseju Emiko</h5>
-              <p className="fs mt-8">c.1945 - 5 September 2015</p>
+              <h5 className="time">Olu Atuwatse II Godwin Toritseju Emiko</h5>
+              <p className="fs date">c.1945 - 5 September 2015</p>
               </div>
               <div>
               <h5>Reign</h5>
@@ -63,11 +63,11 @@ export const Ginuwa = () => {
               <div className="card-details">
               <div>
               <h5>Erejuwa II Wilson Ayoronmitsi Gbesimi Emiko</h5>
-              <p className="fs mt-8">c.1908 - 17 December 1986</p>
+              <p className="fs date">c.1908 - 17 December 1986</p>
               </div>
               <div>
-              <h5 className="mt-8">Reign</h5>
-              <p className="fs mt-8"><b>Start:</b>24 March 1951<span className="ml"><b>End:</b>17 December 1986</span></p>
+              <h5 className="time">Reign</h5>
+              <p className="fs date"><b>Start:</b>24 March 1951<span className="ml"><b>End:</b>17 December 1986</span></p>
               </div>
               </div>
             </div>
@@ -76,11 +76,11 @@ export const Ginuwa = () => {
               <div className="card-details">
               <div>
               <h5>Olu Atuwatse III</h5>
-              <p className="fs mt-8">Present</p>
+              <p className="fs date">Present</p>
               </div>
               <div>
-              <h5 className="mt-8">Reign</h5>
-              <p className="fs mt-8"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
+              <h5 className="time">Reign</h5>
+              <p className="fs date"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
               </div>
               </div>
             </div>
@@ -89,11 +89,11 @@ export const Ginuwa = () => {
               <div className="card-details">
               <div>
               <h5>Olu Atuwatse III</h5>
-              <p className="fs mt-8">Present</p>
+              <p className="fs date">Present</p>
               </div>
               <div>
-              <h5 className="mt-8">Olu Atuwatse III</h5>
-              <p className="fs mt-8"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
+              <h5 className="time">Olu Atuwatse III</h5>
+              <p className="fs date"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
               </div>
               </div>
             </div>
@@ -102,11 +102,11 @@ export const Ginuwa = () => {
               <div className="card-details">
               <div>
               <h5>Olu Atuwatse III</h5>
-              <p className="fs mt-8">Present</p>
+              <p className="fs date">Present</p>
               </div>
               <div>
-              <h5 className="mt-8">Reign</h5>
-              <p className="fs mt-8"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
+              <h5 className="time">Reign</h5>
+              <p className="fs date"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
               </div>
               </div>
             </div>
@@ -115,11 +115,11 @@ export const Ginuwa = () => {
               <div className="card-details">
               <div>
               <h5>Olu Atuwatse III</h5>
-              <p className="fs mt-8">Present</p>
+              <p className="fs date">Present</p>
               </div>
               <div>
-              <h5 className="mt-8">Reign</h5>
-              <p className="fs mt-8"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
+              <h5 className="time">Reign</h5>
+              <p className="fs date"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
               </div>
               </div>
             </div>
@@ -128,11 +128,11 @@ export const Ginuwa = () => {
               <div className="card-details">
               <div>
               <h5>Olu Atuwatse III</h5>
-              <p className="fs mt-8">Present</p>
+              <p className="fs date">Present</p>
               </div>
               <div>
-              <h5 className="mt-8">Reign</h5>
-              <p className="fs mt-8"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
+              <h5 className="time">Reign</h5>
+              <p className="fs date"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
               </div>
               </div>
             </div>
@@ -141,11 +141,11 @@ export const Ginuwa = () => {
               <div className="card-details">
               <div>
               <h5>Olu Atuwatse III</h5>
-              <p className="fs mt-8">Present</p>
+              <p className="fs date">Present</p>
               </div>
               <div>
-              <h5 className="mt-8">Reign</h5>
-              <p className="fs mt-8"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
+              <h5 className="time">Reign</h5>
+              <p className="fs date"><b>Start:</b>21 August 2021<span className="ml"><b>End:</b></span></p>
               </div>
               </div>
             </div>

@@ -40,7 +40,8 @@
     margin-top: 32px;
 }
 
-.mt-8 {
+.date,
+.time {
     margin-top: 8px;
 }
 
@@ -72,6 +73,10 @@
 .gin-details {
     padding: 20px;
     background-color: white;
+}
+
+.gin-text {
+    margin-top: 4px;
 }
 
 input[type=text] {

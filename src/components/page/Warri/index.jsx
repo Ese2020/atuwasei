@@ -24,7 +24,7 @@ export const Warri = () => {
               <div className="w-card-details">
               <div>
               <h5>Chief Johnson Amatserunleghe</h5>
-              <p className=" mt-8">The Iyatsere of Warri</p>
+              <p className="title">The Iyatsere of Warri</p>
               </div>
               </div>
             </div>
@@ -32,8 +32,8 @@ export const Warri = () => {
             <div className="w-card-logo"></div>
               <div className="w-card-details">
               <div>
-              <h5 className="mt-4">Chief Gabriel Awala</h5>
-              <p className="mt-8">The Uwangue of Warri</p>
+              <h5>Chief Gabriel Awala</h5>
+              <p className="title">The Uwangue of Warri</p>
               </div>
               </div>
             </div>
@@ -42,7 +42,7 @@ export const Warri = () => {
               <div className="w-card-details">
               <div>
               <h5>Chief T.Y. Pessu</h5>
-              <p className="mt-8">The Ojomo of Warri</p>
+              <p className="title">The Ojomo of Warri</p>
               </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ export const Warri = () => {
               <div className="w-card-details">
               <div>
               <h5>Chief Sunday Rone</h5>
-              <p className="mt-8"> The Obazuaye of Warri</p>
+              <p className="title"> The Obazuaye of Warri</p>
               </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ export const Warri = () => {
               <div className="w-card-details">
               <div>
               <h5>Chief (Dr.) P.E.B. Uku</h5>
-              <p className="mt-8">The Ere Oluyon of Warri</p>
+              <p className="title">The Ere Oluyon of Warri</p>
               </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ export const Warri = () => {
               <div className="w-card-details">
               <div>
               <h5>Chief G.T. Grant</h5>
-              <p className="mt-8">The Agura-Otiri of Warri</p>
+              <p className="title">The Agura-Otiri of Warri</p>
               </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ export const Warri = () => {
               <div className="w-card-details">
               <div>
               <h5>Chief (Mrs.) R. L. Ogbebor</h5>
-              <p className="mt-8">The Igba of Warri</p>
+              <p className="title">The Igba of Warri</p>
               </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ export const Warri = () => {
               <div className="w-card-details">
               <div>
               <h5>Chief Kofi Kartey</h5>
-              <p className="mt-8">The Abolujiyan of Warri</p>
+              <p className="title">The Abolujiyan of Warri</p>
               </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ export const Warri = () => {
               <div className="w-card-details">
               <div>
               <h5>Chief Brown Mene</h5>
-              <p className="mt-8">The Ogwaolusan of Warri</p>
+              <p className="title">The Ogwaolusan of Warri</p>
               </div>
               </div>
             </div>
@@ -105,7 +105,7 @@ export const Warri = () => {
               <div className="w-card-details">
               <div>
               <h5>Chief Elder Walter Odeli (JP)</h5>
-              <p className="mt-8">The Oritsegbogwa of Warri</p>
+              <p className="title">The Oritsegbogwa of Warri</p>
               </div>
               </div>
             </div>
@@ -113,9 +113,9 @@ export const Warri = () => {
           <hr className="break" />
           <div className="warri-descrip">
           <div className="w-card2-logo mt"></div>
-          <h3 className="mt-8">Chief Johnson Amatserunleghe</h3>
+          <h3 className="title">Chief Johnson Amatserunleghe</h3>
           <div className="more-details">
-            <p className="fs-16 mb mt-8">
+            <p className="fs-16 mb title">
               <b>Title:</b>
               The Iyatsere of Warri
             </p>

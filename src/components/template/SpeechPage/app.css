@@ -1,0 +1,45 @@
+.grid-speech {
+  width: 30;
+}
+
+.speech-img {
+  background-image: url(../../../asset/spcd.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 90vh;
+}
+
+.parent-grid-speech {
+  display: grid;
+  grid-template-columns: 1.04fr 0.85fr 1fr;
+}
+
+.ft {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 10%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+@media screen and (max-width: 995px) {
+  .parent-grid-speech {
+    grid-template-columns: 1fr 1fr;
+  }
+  .speech-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .parent-grid-speech {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-last {
+    display: none;
+  }
+}

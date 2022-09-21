@@ -4,3 +4,4 @@ export * from "./SignUpPage";
 export * from "./LogoutPage";
 export * from "./PasswordPage";
 export * from "./PressPage";
+export * from "./SpeechPage";

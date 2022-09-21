@@ -1,9 +1,10 @@
 import React from "react";
+import { SpeechPage } from "../../template";
 
 export const Speech = () => {
   return (
     <>
-      <h1>Speech page</h1>
+      <SpeechPage />
     </>
   );
 };

@@ -51,7 +51,7 @@ export const Footer = () => {
             </NavLink>
           </div>
           <div className="account">
-            <NavLink to="/account" className="linked">
+            <NavLink to="/logout" className="linked">
               <Svg src={account} alt="account" />
               <div className="up">Account</div>
             </NavLink>

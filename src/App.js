@@ -43,14 +43,7 @@ function App() {
           }
         />
         <Route path="/account" element={<Account />} />
-        <Route
-          path="/speech"
-          element={
-            <RequireAuth>
-              <Speech />
-            </RequireAuth>
-          }
-        />
+        <Route path="/speech" element={<Speech />} />
         <Route path="/signup" element={<Signed />} />
         <Route path="/login" element={<Logined />} />
         <Route

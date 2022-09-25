@@ -1,12 +1,27 @@
 import React from "react";
 import { Text } from "../../atom";
 import "./app.css";
-export const SearchDetail = ({ toggled }) => {
+import { FaDownload } from "react-icons/fa";
+export const SearchDetail = ({ toggled, setToggled }) => {
   return (
     <>
       <div className="detail">
-        <div className={toggled === 1 ? "toggle-active" : "toggle1"}>
+        <div className={toggled === 0 ? "toggle-active" : "toggle1"}>
           <div className="detail-top">
+            <Text type="h5" className="detail-h5"></Text>
+            <Text className="detail-p"></Text>
+          </div>
+          <div className="detail-down">
+            <div className="detail-scroll">
+              <Text className="sc-p"></Text>
+            </div>
+          </div>
+        </div>
+        <div className={toggled === 2 ? "toggle-active" : "toggle1"}>
+          <div className="detail-top">
+            <div className="dt-tp-bk" onClick={() => setToggled(null)}>
+              ⟵
+            </div>
             <Text type="h5" className="detail-h5">
               Coronation Speech
             </Text>
@@ -348,14 +363,27 @@ export const SearchDetail = ({ toggled }) => {
                     neighbours, God bless Delta state, God bless Nigeria, and
                     God bless Africa.
                   </p>
+                  <a
+                    href="The Warri.pdf"
+                    download="The Warri.pdf"
+                    className="dwn-a"
+                  >
+                    <div className="download">
+                      <span>Download speech as PDF</span>
+                      <FaDownload />
+                    </div>
+                  </a>
                 </div>
               </Text>
             </div>
           </div>
         </div>
 
-        <div className={toggled === 2 ? "toggle-active" : "toggle2"}>
+        <div className={toggled === 1 ? "toggle-active" : "toggle2"}>
           <div className="detail-top ">
+            <div className="dt-tp-bk" onClick={() => setToggled(null)}>
+              ⟵
+            </div>
             <Text type="h5" className="detail-h5">
               A New Dawn (Keynote Speech at the PIA Summit)
             </Text>
@@ -469,6 +497,16 @@ export const SearchDetail = ({ toggled }) => {
                 growth and development, we have set upon today. Thank you and
                 God bless you.
               </Text>
+              <a
+                href="corronation.pdf"
+                download="corronation.pdf"
+                className="dwn-a"
+              >
+                <div className="download">
+                  <span>Download speech as PDF</span>
+                  <FaDownload />
+                </div>
+              </a>
             </div>
           </div>
         </div>

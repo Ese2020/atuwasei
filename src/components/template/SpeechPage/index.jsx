@@ -8,7 +8,7 @@ export const SpeechPage = () => {
   const [slideup, setSlideup] = useState(false);
   const handleClickSlide = () => setSlideup(!slideup);
 
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(0);
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -24,8 +24,8 @@ export const SpeechPage = () => {
             handleClickSlide={handleClickSlide}
           />
         </div>
-        <div className="grid-speech grid-last">
-          <SearchDetail toggled={toggleState} />
+        <div className={toggleState ? "grid-gd" : "grid-last"}>
+          <SearchDetail toggled={toggleState} setToggled={setToggleState} />
         </div>
       </div>
       <footer className="ft">

@@ -50,9 +50,9 @@
   margin-bottom: 0rem;
 }
 
-.mx-dwn {
-  padding-top: -2rem;
-}
+/* .mx-dwn {
+  margin-bottom: -2rem;
+} */
 
 .search-hover:hover {
   background-color: #d30002;
@@ -63,6 +63,8 @@
   padding: 1.5rem;
   padding-right: 1.1rem;
   background-color: #f5f5f5;
+  padding-bottom: 0rem;
+  padding-top: 0.5rem;
 }
 
 .txt-h2 {
@@ -86,12 +88,12 @@
   display: none;
 }
 
-.mx-1 {
+/* .mx-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: -2rem;
-}
+} */
 
 @media screen and (max-width: 995px) {
   .search-hover {
@@ -105,6 +107,15 @@
     height: 70vh;
     overflow-y: scroll;
     overflow-x: hidden;
+  }
+  .bd-md-2 {
+    display: none;
+  }
+
+  .img-icd {
+    display: block;
+    position: absolute;
+    top: 20px;
   }
   .mx-1::-webkit-scrollbar {
     width: 4px;
@@ -126,5 +137,9 @@
   /* Handle on hover */
   .mx-1::-webkit-scrollbar-thumb:hover {
     background: #d30002;
+  }
+  .h1-tp {
+    font-size: 1.6rem;
+    padding-top: 2.5rem;
   }
 }
